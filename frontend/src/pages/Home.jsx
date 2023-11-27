@@ -51,14 +51,14 @@ export function Home() {
                     Welcome to Pushpaka Vimana!
                 </h2>
                 <p className="text-white font-sans">
-                    This is a internship project made using the MERN(Mongo DB, Express JS,
+                    This is an internship project made using the MERN(Mongo DB, Express JS,
                     React JS, Node JS) stack, <br /> The Main objective of this
                     Project is to make working prototype an airline booking
                     webisite's User :
                     <span className="font-bold text-blue-500 underline bg-white bg-opacity-60 px-4 mx-2">
                         Login, Sign-Up and Profile editing, deleting
                     </span>
-                    (or for any the website) features.
+                    (or for any other website) features.
                     <br />
                     The other part of the pages of are generally static other
                     than the Navigation Bar Visible on the top.
