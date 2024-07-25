@@ -1,7 +1,9 @@
 import { connect, Schema, model } from "mongoose";
-import data from "./drivers.json" assert { type: "json" };
+
+const userDriver = "mongodb+srv://Chethan-L701:QW12er@user.vmmawc5.mongodb.net/?retryWrites=true&w=majority&appName=user";
+
 try {
-    let driver = data.userDriver;
+    let driver = userDriver;
     await connect(driver);
 } catch (error) {
     console.log(error);
